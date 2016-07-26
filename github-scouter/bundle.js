@@ -26934,7 +26934,7 @@
 	    value: function componentDidMount() {
 	      var _this2 = this;
 	
-	      var uri = '/scouterData.json';
+	      var uri = 'scouterData.json';
 	      fetch(uri).then(function (res) {
 	        return res.json();
 	      }).then(function (json) {
